@@ -1,3 +1,4 @@
-class PigLatinizer < Sinatra
+class PigLatinizer
+  
   
 end
