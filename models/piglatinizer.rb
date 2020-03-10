@@ -5,6 +5,9 @@ class PigLatinizer
     @piglatin 
   end
  
+ def results
+   @piglatin.reverse
+ end
   
   
 end
