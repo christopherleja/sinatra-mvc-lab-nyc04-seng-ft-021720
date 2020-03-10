@@ -7,7 +7,8 @@ class App < Sinatra::Base
   end
   
   post '/' do
-    erb :
+    erb :user_input
+    @text = params[:text]
   end
   
 end
